@@ -1,0 +1,11 @@
+# CPU-only PyTorch wheels: the default PyPI wheels bundle CUDA and are ~2.5 GB,
+# which blows the build limits on free hosting.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.13.0
+torchvision==0.28.0
+streamlit==1.61.1
+matplotlib==3.10.8
+pandas==3.0.2
+numpy==2.4.4
+pillow==12.1.1
